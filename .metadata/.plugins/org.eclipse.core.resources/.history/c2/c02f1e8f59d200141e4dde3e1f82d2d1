@@ -1,0 +1,11 @@
+package primefactors;
+
+import static org.junit.Assert.*;
+
+public class PrimeFactorsTest {
+
+	@Test
+	public void testOne() {
+		assertEquals(list(), PrimeFactors.generate(1));
+	}
+}
