@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class PrimeNumbers {
+
+	public static List<Integer> primes(int num) {
+		ArrayList<Integer> numList = new ArrayList<Integer>();
+		for(int i = 2; i <= num; i++) {
+			if(i % 2 != 0 && i % 3 != 0 && i % 5 != 0 && i % 7 != 0) {
+				numList.add(i);
+			}
+		}
+		return numList;
+	}
+}
