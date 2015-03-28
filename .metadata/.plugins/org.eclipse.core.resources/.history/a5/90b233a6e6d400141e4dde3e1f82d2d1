@@ -6,7 +6,7 @@ public class PrimeNumbers {
 
 	public static List<Integer> primes(int i) {
 		
-		return null;
+		return new ArrayList<Integer>();
 	}
 
 }

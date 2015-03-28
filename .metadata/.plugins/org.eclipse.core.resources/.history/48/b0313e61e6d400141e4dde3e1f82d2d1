@@ -17,5 +17,10 @@ public class PrimeNumbersTest {
 		assertEquals(list(), PrimeNumbers.primes(1));
 	}
 	
+	@Test
+	public void testTwo() throws Exception {
+		assertEquals(list(2), PrimeNumbers.primes(2));
+	}
+
 
 }

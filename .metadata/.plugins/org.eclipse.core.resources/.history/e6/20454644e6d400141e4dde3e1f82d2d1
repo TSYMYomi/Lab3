@@ -16,6 +16,6 @@ public class PrimeNumbersTest {
 	public void testOne() {
 		assertEquals(list(), PrimeNumbers.primes(1));
 	}
-	
+
 
 }
