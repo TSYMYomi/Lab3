@@ -1,0 +1,9 @@
+
+public class PrimeNumbers {
+
+	public static Object primes(int i) {
+		
+		return null;
+	}
+
+}
