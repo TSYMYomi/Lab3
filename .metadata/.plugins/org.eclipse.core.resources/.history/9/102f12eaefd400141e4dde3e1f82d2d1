@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized;
 @RunWith(Parameterized.class)
 public class PrimeNumbersTest {
 	private int inputNumber;
-	private List<Integer> expectedResult;
+	private int[] expectedResult;
 	private PrimeNumbers primeNumbers;
 	
 	
@@ -22,7 +22,7 @@ public class PrimeNumbersTest {
 		primeNumbers = new PrimeNumbers();
 	}
 	
-	public PrimeNumbersTest(int inputNumber, List<Integer> expectedResult) {
+	public PrimeNumbersTest(int inputNumber, int[] expectedResult) {
 		this.inputNumber = inputNumber;
 		this.expectedResult = expectedResult;
 	}
